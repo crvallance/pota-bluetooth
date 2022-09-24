@@ -1,6 +1,6 @@
 [Unit]
 Description=Bluetooth NEP PAN
-Requires=bluetooth.target
+Requires=bluetooth.target systemd-networkd.service
 After=network.target bluetooth.target
 BindsTo=bluetooth.service
 
