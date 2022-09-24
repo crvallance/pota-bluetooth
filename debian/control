@@ -1,15 +1,15 @@
 Source: wlanpi-bluetooth
 Section: embedded
 Priority: optional
-Maintainer: Jiri Brejcha <jirka@jiribrejcha.net>
-Uploaders: Adrian Granados <adrian@intuitibits.com>, Ben Toner <ben@numerousnetworks.co.uk>, Josh Schmelzle <josh@joshschmelzle.com>
+Maintainer: Colin Vallance
+Uploaders: Colin Vallance
 Build-Depends: debhelper (>=9), build-essential
-Standards-Version: 3.9.8
-Homepage: https://github.com/WLAN-Pi/wlanpi-bluetooth
+Standards-Version: 3.9.9
+Homepage: https://github.com/crvallance/pota-bluetooth
 
 Package: wlanpi-bluetooth
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}, bluez-tools
+Depends: systemd-networkd, avahi-daemon, bluez-tools
 Description: WLAN Pi - bluetooth
  Enable Bluetooth features on the WLAN Pi.
