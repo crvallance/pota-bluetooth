@@ -1,4 +1,10 @@
-wlanpi-bluetooth (1.0.8-2) unstable; urgency=medium
+wlanpi-bluetooth (1.0.9) unstable; urgency=medium
+
+  * Makes changes for Colin
+
+ -- Colin Vallance  Fri, 23 Sept 2022 19:44:00 -0600
+ 
+ wlanpi-bluetooth (1.0.8-2) unstable; urgency=medium
 
   * Turns off the second bluetooth radio (hci1), if present
 
