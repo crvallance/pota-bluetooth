@@ -1,0 +1,1 @@
+https://developer-old.gnome.org/NetworkManager/unstable/nmcli-examples.html
